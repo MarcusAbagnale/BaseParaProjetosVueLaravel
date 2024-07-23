@@ -21,29 +21,28 @@ Uma base para iniciar projetos com Laravel e Vue com Docker configurado.
 ## Instruções
 
 1. Clone o repositório:
-   ```sh
-   git clone https://github.com/MarcusAbagnale/BaseParaProjetosVueLaravel```
+   ```git clone https://github.com/MarcusAbagnale/BaseParaProjetosVueLaravel
+   
 Navegue para a pasta criada:
 
-```
-cd BaseParaProjetosVueLaravel```
+```cd BaseParaProjetosVueLaravel
+
 Inicie o terminal bash:
 
-```
-bash```
+```bash
 
 Construa os containers Docker:
 
-```
-docker compose build```
+```docker compose build
+
 Inicie os containers Docker:
 
-```
-docker compose up -d```
+```docker compose up -d
+
 Execute as migrações e os seeders:
 
-```
-docker exec -it web php artisan migrate && php artisan db:seed```
+```docker exec -it web php artisan migrate && php artisan db:seed
+
 Acesse o frontend em: http://localhost:8080/
 
 Acesse o backend em: http://localhost:80/
