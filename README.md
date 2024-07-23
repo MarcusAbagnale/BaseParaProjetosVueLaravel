@@ -1,17 +1,6 @@
 # BaseParaProjetosVueLaravel
 Este repositório fornece uma estrutura inicial para projetos utilizando Laravel e Vue.js com Docker configurado. A configuração requer que o Git e o Docker estejam instalados e funcionando corretamente no sistema.
 
-Clone o arquivo
-
-navegue para a pasta criada
-
-digite bash e dê um enter
-
-execute docker compose build
-
-execute docker compose up -d# BaseParaProjetosVueLaravel
-Uma base para iniciar projetos com Laravel e Vue com Docker configurado.
-
 ## Pré-requisitos
 - Git instalado
 - Docker instalado e rodando
